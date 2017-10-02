@@ -8,9 +8,9 @@ El programa recibira una secuencia de numeros debiendo procesarlos del siguiente
 
 Se devolverá el número original salvo en los siguientes casos:
 
-1. Si el número es divisible por 3 devolvera `Fizz`.
-2. Si el numero es divisible por 5 devolvera `Buzz`.
-3. Si el numero es divisible por 3 y por 5 devolvera `FizzBuzz`.
+1. Si el número es divisible por 3 devolverá `Fizz`.
+2. Si el número es divisible por 5 devolverá `Buzz`.
+3. Si el número es divisible por 3 y por 5 devolverá `FizzBuzz`.
 
 ## Problema
 
