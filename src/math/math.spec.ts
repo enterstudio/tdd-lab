@@ -4,10 +4,11 @@ import { MathComponent } from "./math";
 describe("MathComponent should", () => {
     it("sum 1 + 1 be 2", () => {
         const sut = new MathComponent();
-        expect(sut.sum(1, 1)).eql(2); // aa
+        expect(sut.sum(1, 1)).eql(2); 
+    });
+    it("sum 1 + 2 be 3", () => {
+        const sut = new MathComponent();
         expect(sut.sum(1, 2)).eql(3);
-        expect(sut.sum(1, 3)).eql(40);
-        expect(sut.sum(1, 4)).eql(5);
     });
     it("sum 1 + 2 be 3", () => {
         const sut = new MathComponent();
